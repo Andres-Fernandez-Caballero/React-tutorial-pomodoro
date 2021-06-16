@@ -1,0 +1,62 @@
+.pomodoro{
+    padding: 30px;
+}
+
+.pomodoro .timer{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.pomodoro .alert{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.pomodoro .alert .work{
+    background: #5da423;
+}
+
+.pomodoro .alert .shortbreak{
+    background: #f4ad42;
+}
+
+.pomodoro .alert .longbreak{
+    background: #2ba6cb;
+}
+
+.pomodoro .alert .buz{
+    background: #c60f13;
+}
+
+.pomodoro button{
+    background: #2ba6cb;
+    border: 1px solid #1e728c;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 50px 10px 0 10px;
+    padding: 10px 20px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pomodoro button .start{
+    background-color: #5da423;
+    border: 1px solid #396516;
+}
+
+.pomodoro button .short{
+    background-color: #f4ad42;
+    border: 1px solid #dd962a;
+}
+
+.pomodoro button .long{
+    background-color: #2ba6cb;
+    border: 1px solid #1e728c;
+}
